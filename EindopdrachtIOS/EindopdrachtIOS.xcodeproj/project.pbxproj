@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1BB9811AD4496A002A89B4 /* end.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1BB9801AD4496A002A89B4 /* end.png */; };
+		CE1BB9831AD4497A002A89B4 /* eetnu.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1BB9821AD4497A002A89B4 /* eetnu.png */; };
 		CE4292941AD418D40011CFD6 /* RestaurantsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4292931AD418D40011CFD6 /* RestaurantsController.swift */; };
+		CED47E341AD450DD006C4A63 /* ASync.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED47E331AD450DD006C4A63 /* ASync.swift */; };
 		CEDC9FCB1AD4051300E2394F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */; };
 		CEDC9FCD1AD4051300E2394F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9FCC1AD4051300E2394F /* ViewController.swift */; };
 		CEDC9FD01AD4051300E2394F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC9FCE1AD4051300E2394F /* Main.storyboard */; };
 		CEDC9FD21AD4051300E2394F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDC9FD11AD4051300E2394F /* Images.xcassets */; };
 		CEDC9FD51AD4051300E2394F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDC9FD31AD4051300E2394F /* LaunchScreen.xib */; };
 		CEDC9FE11AD4051300E2394F /* EindopdrachtIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9FE01AD4051300E2394F /* EindopdrachtIOSTests.swift */; };
-		CEDC9FEC1AD40D4000E2394F /* eetnu.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC9FEA1AD40D4000E2394F /* eetnu.png */; };
-		CEDC9FED1AD40D4000E2394F /* end.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDC9FEB1AD40D4000E2394F /* end.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE1BB9801AD4496A002A89B4 /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = end.png; path = ../../../Desktop/end.png; sourceTree = "<group>"; };
+		CE1BB9821AD4497A002A89B4 /* eetnu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eetnu.png; path = ../../../Desktop/eetnu.png; sourceTree = "<group>"; };
 		CE4292931AD418D40011CFD6 /* RestaurantsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsController.swift; sourceTree = "<group>"; };
+		CED47E331AD450DD006C4A63 /* ASync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASync.swift; sourceTree = SOURCE_ROOT; };
 		CEDC9FC51AD4051300E2394F /* EindopdrachtIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EindopdrachtIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDC9FC91AD4051300E2394F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,8 +44,6 @@
 		CEDC9FDA1AD4051300E2394F /* EindopdrachtIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EindopdrachtIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDC9FDF1AD4051300E2394F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDC9FE01AD4051300E2394F /* EindopdrachtIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EindopdrachtIOSTests.swift; sourceTree = "<group>"; };
-		CEDC9FEA1AD40D4000E2394F /* eetnu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eetnu.png; path = ../../../eetnu.png; sourceTree = "<group>"; };
-		CEDC9FEB1AD40D4000E2394F /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = end.png; path = ../../../end.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +89,12 @@
 				CEDC9FCC1AD4051300E2394F /* ViewController.swift */,
 				CE4292931AD418D40011CFD6 /* RestaurantsController.swift */,
 				CEDC9FCE1AD4051300E2394F /* Main.storyboard */,
-				CEDC9FEA1AD40D4000E2394F /* eetnu.png */,
-				CEDC9FEB1AD40D4000E2394F /* end.png */,
 				CEDC9FD11AD4051300E2394F /* Images.xcassets */,
+				CE1BB9821AD4497A002A89B4 /* eetnu.png */,
+				CE1BB9801AD4496A002A89B4 /* end.png */,
 				CEDC9FD31AD4051300E2394F /* LaunchScreen.xib */,
 				CEDC9FC81AD4051300E2394F /* Supporting Files */,
+				CED47E331AD450DD006C4A63 /* ASync.swift */,
 			);
 			path = EindopdrachtIOS;
 			sourceTree = "<group>";
@@ -202,9 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDC9FD01AD4051300E2394F /* Main.storyboard in Resources */,
-				CEDC9FEC1AD40D4000E2394F /* eetnu.png in Resources */,
-				CEDC9FED1AD40D4000E2394F /* end.png in Resources */,
+				CE1BB9811AD4496A002A89B4 /* end.png in Resources */,
 				CEDC9FD51AD4051300E2394F /* LaunchScreen.xib in Resources */,
+				CE1BB9831AD4497A002A89B4 /* eetnu.png in Resources */,
 				CEDC9FD21AD4051300E2394F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED47E341AD450DD006C4A63 /* ASync.swift in Sources */,
 				CE4292941AD418D40011CFD6 /* RestaurantsController.swift in Sources */,
 				CEDC9FCD1AD4051300E2394F /* ViewController.swift in Sources */,
 				CEDC9FCB1AD4051300E2394F /* AppDelegate.swift in Sources */,

@@ -215,12 +215,6 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1SI-iu-sKg">
                                 <rect key="frame" x="204" y="429" width="51" height="31"/>
                             </switch>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ank-8S-1Ud">
-                                <rect key="frame" x="5" y="264" width="403" height="162"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="403" id="eUC-zN-SfN"/>
-                                </constraints>
-                            </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorteren op waardering" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIT-07-VUX">
                                 <rect key="frame" x="16" y="434" width="180" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -245,14 +239,17 @@
                                     <constraint firstAttribute="height" constant="94" id="Lc3-Ji-DNv"/>
                                 </constraints>
                             </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ank-8S-1Ud">
+                                <rect key="frame" x="5" y="264" width="403" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="403" id="eUC-zN-SfN"/>
+                                </constraints>
+                            </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fe7-Tx-OzF">
                                 <rect key="frame" x="16" y="468" width="167" height="30"/>
                                 <state key="normal" title="Zoeken naar restaurants">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="EAh-wm-o8x" kind="show" id="OCF-1a-FHc"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -277,6 +274,9 @@
                             <constraint firstItem="jY9-b5-UCJ" firstAttribute="leading" secondItem="XoZ-Yu-pCg" secondAttribute="leading" id="zmg-ve-Nhp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myPicker" destination="ank-8S-1Ud" id="96b-hH-LLl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9QX-pS-lsH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
