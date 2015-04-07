@@ -1,15 +1,15 @@
 //
-//  Eindopdract_IOSTests.swift
-//  Eindopdract-IOSTests
+//  EindopdrachtIOSTests.swift
+//  EindopdrachtIOSTests
 //
-//  Created by Jarno van Wijgerden on 17/03/15.
-//  Copyright (c) 2015 Jarno van Wijgerden. All rights reserved.
+//  Created by User on 07/04/15.
+//  Copyright (c) 2015 Jarno. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class Eindopdract_IOSTests: XCTestCase {
+class EindopdrachtIOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

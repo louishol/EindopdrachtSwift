@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Eindopdract-IOS
+//  EindopdrachtIOS
 //
-//  Created by Jarno van Wijgerden on 17/03/15.
-//  Copyright (c) 2015 Jarno van Wijgerden. All rights reserved.
+//  Created by User on 07/04/15.
+//  Copyright (c) 2015 Jarno. All rights reserved.
 //
 
 import UIKit

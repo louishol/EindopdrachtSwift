@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Eindopdract-IOS.xcscheme</key>
+		<key>EindopdrachtIOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>002C891F1AB8415900E2DE51</key>
+		<key>CEDC9FC41AD4051300E2394F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>002C89341AB8415900E2DE51</key>
+		<key>CEDC9FD91AD4051300E2394F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
