@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4292941AD418D40011CFD6 /* RestaurantsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4292931AD418D40011CFD6 /* RestaurantsController.swift */; };
 		CEDC9FCB1AD4051300E2394F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */; };
 		CEDC9FCD1AD4051300E2394F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9FCC1AD4051300E2394F /* ViewController.swift */; };
 		CEDC9FD01AD4051300E2394F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC9FCE1AD4051300E2394F /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE4292931AD418D40011CFD6 /* RestaurantsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsController.swift; sourceTree = "<group>"; };
 		CEDC9FC51AD4051300E2394F /* EindopdrachtIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EindopdrachtIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDC9FC91AD4051300E2394F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */,
 				CEDC9FCC1AD4051300E2394F /* ViewController.swift */,
+				CE4292931AD418D40011CFD6 /* RestaurantsController.swift */,
 				CEDC9FCE1AD4051300E2394F /* Main.storyboard */,
 				CEDC9FEA1AD40D4000E2394F /* eetnu.png */,
 				CEDC9FEB1AD40D4000E2394F /* end.png */,
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4292941AD418D40011CFD6 /* RestaurantsController.swift in Sources */,
 				CEDC9FCD1AD4051300E2394F /* ViewController.swift in Sources */,
 				CEDC9FCB1AD4051300E2394F /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +419,7 @@
 				CEDC9FE61AD4051300E2394F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEDC9FE71AD4051300E2394F /* Build configuration list for PBXNativeTarget "EindopdrachtIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				CEDC9FE91AD4051300E2394F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
