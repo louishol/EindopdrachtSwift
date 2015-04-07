@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002C89261AB8415900E2DE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C89251AB8415900E2DE51 /* AppDelegate.swift */; };
+		002C89281AB8415900E2DE51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C89271AB8415900E2DE51 /* ViewController.swift */; };
+		002C892B1AB8415900E2DE51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002C89291AB8415900E2DE51 /* Main.storyboard */; };
+		002C892D1AB8415900E2DE51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002C892C1AB8415900E2DE51 /* Images.xcassets */; };
+		002C89301AB8415900E2DE51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002C892E1AB8415900E2DE51 /* LaunchScreen.xib */; };
+		002C893C1AB8415900E2DE51 /* Eindopdract_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C893B1AB8415900E2DE51 /* Eindopdract_IOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002C89361AB8415900E2DE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002C89181AB8415900E2DE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002C891F1AB8415900E2DE51;
+			remoteInfo = "Eindopdract-IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002C89201AB8415900E2DE51 /* Eindopdract-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eindopdract-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002C89241AB8415900E2DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002C89251AB8415900E2DE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		002C89271AB8415900E2DE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		002C892A1AB8415900E2DE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		002C892C1AB8415900E2DE51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		002C892F1AB8415900E2DE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		002C89351AB8415900E2DE51 /* Eindopdract-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eindopdract-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002C893A1AB8415900E2DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002C893B1AB8415900E2DE51 /* Eindopdract_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eindopdract_IOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002C891D1AB8415900E2DE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002C89321AB8415900E2DE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002C89171AB8415900E2DE51 = {
+			isa = PBXGroup;
+			children = (
+				002C89221AB8415900E2DE51 /* Eindopdract-IOS */,
+				002C89381AB8415900E2DE51 /* Eindopdract-IOSTests */,
+				002C89211AB8415900E2DE51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002C89211AB8415900E2DE51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002C89201AB8415900E2DE51 /* Eindopdract-IOS.app */,
+				002C89351AB8415900E2DE51 /* Eindopdract-IOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002C89221AB8415900E2DE51 /* Eindopdract-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				002C89251AB8415900E2DE51 /* AppDelegate.swift */,
+				002C89271AB8415900E2DE51 /* ViewController.swift */,
+				002C89291AB8415900E2DE51 /* Main.storyboard */,
+				002C892C1AB8415900E2DE51 /* Images.xcassets */,
+				002C892E1AB8415900E2DE51 /* LaunchScreen.xib */,
+				002C89231AB8415900E2DE51 /* Supporting Files */,
+			);
+			path = "Eindopdract-IOS";
+			sourceTree = "<group>";
+		};
+		002C89231AB8415900E2DE51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002C89241AB8415900E2DE51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		002C89381AB8415900E2DE51 /* Eindopdract-IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				002C893B1AB8415900E2DE51 /* Eindopdract_IOSTests.swift */,
+				002C89391AB8415900E2DE51 /* Supporting Files */,
+			);
+			path = "Eindopdract-IOSTests";
+			sourceTree = "<group>";
+		};
+		002C89391AB8415900E2DE51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002C893A1AB8415900E2DE51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002C891F1AB8415900E2DE51 /* Eindopdract-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002C893F1AB8415900E2DE51 /* Build configuration list for PBXNativeTarget "Eindopdract-IOS" */;
+			buildPhases = (
+				002C891C1AB8415900E2DE51 /* Sources */,
+				002C891D1AB8415900E2DE51 /* Frameworks */,
+				002C891E1AB8415900E2DE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eindopdract-IOS";
+			productName = "Eindopdract-IOS";
+			productReference = 002C89201AB8415900E2DE51 /* Eindopdract-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		002C89341AB8415900E2DE51 /* Eindopdract-IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002C89421AB8415900E2DE51 /* Build configuration list for PBXNativeTarget "Eindopdract-IOSTests" */;
+			buildPhases = (
+				002C89311AB8415900E2DE51 /* Sources */,
+				002C89321AB8415900E2DE51 /* Frameworks */,
+				002C89331AB8415900E2DE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002C89371AB8415900E2DE51 /* PBXTargetDependency */,
+			);
+			name = "Eindopdract-IOSTests";
+			productName = "Eindopdract-IOSTests";
+			productReference = 002C89351AB8415900E2DE51 /* Eindopdract-IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002C89181AB8415900E2DE51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jarno van Wijgerden";
+				TargetAttributes = {
+					002C891F1AB8415900E2DE51 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					002C89341AB8415900E2DE51 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 002C891F1AB8415900E2DE51;
+					};
+				};
+			};
+			buildConfigurationList = 002C891B1AB8415900E2DE51 /* Build configuration list for PBXProject "Eindopdract-IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 002C89171AB8415900E2DE51;
+			productRefGroup = 002C89211AB8415900E2DE51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002C891F1AB8415900E2DE51 /* Eindopdract-IOS */,
+				002C89341AB8415900E2DE51 /* Eindopdract-IOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002C891E1AB8415900E2DE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002C892B1AB8415900E2DE51 /* Main.storyboard in Resources */,
+				002C89301AB8415900E2DE51 /* LaunchScreen.xib in Resources */,
+				002C892D1AB8415900E2DE51 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002C89331AB8415900E2DE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002C891C1AB8415900E2DE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002C89281AB8415900E2DE51 /* ViewController.swift in Sources */,
+				002C89261AB8415900E2DE51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002C89311AB8415900E2DE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002C893C1AB8415900E2DE51 /* Eindopdract_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002C89371AB8415900E2DE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002C891F1AB8415900E2DE51 /* Eindopdract-IOS */;
+			targetProxy = 002C89361AB8415900E2DE51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		002C89291AB8415900E2DE51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002C892A1AB8415900E2DE51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		002C892E1AB8415900E2DE51 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002C892F1AB8415900E2DE51 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002C893D1AB8415900E2DE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002C893E1AB8415900E2DE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002C89401AB8415900E2DE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Eindopdract-IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		002C89411AB8415900E2DE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Eindopdract-IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		002C89431AB8415900E2DE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Eindopdract-IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eindopdract-IOS.app/Eindopdract-IOS";
+			};
+			name = Debug;
+		};
+		002C89441AB8415900E2DE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Eindopdract-IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eindopdract-IOS.app/Eindopdract-IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002C891B1AB8415900E2DE51 /* Build configuration list for PBXProject "Eindopdract-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002C893D1AB8415900E2DE51 /* Debug */,
+				002C893E1AB8415900E2DE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002C893F1AB8415900E2DE51 /* Build configuration list for PBXNativeTarget "Eindopdract-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002C89401AB8415900E2DE51 /* Debug */,
+				002C89411AB8415900E2DE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		002C89421AB8415900E2DE51 /* Build configuration list for PBXNativeTarget "Eindopdract-IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002C89431AB8415900E2DE51 /* Debug */,
+				002C89441AB8415900E2DE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002C89181AB8415900E2DE51 /* Project object */;
+}
