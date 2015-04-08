@@ -8,7 +8,12 @@
 
 import UIKit
 
-class ASync: NSObject {
+
+protocol FooTwoViewControllerDelegate{
+    func myVCDidFinish(controller:ASync,text:String)
+}
+
+public class ASync: NSObject {
     
     
     func getJSON(apiurl:String) -> String {
