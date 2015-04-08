@@ -10,8 +10,9 @@ import UIKit
 
 class SettingsController: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate
 {
-    let pickerData = ["Mozzarella","Gorgonzola","Provolone","Brie","Maytag Blue","Sharp Cheddar","Monterrey Jack","Stilton","Gouda","Goat Cheese", "Asiago"]
+     let pickerData = ["Alle categorien","African","Asian","Australian","Balkan","BBQ","Bistro","Chinese","Dutch","East-european", "Eatery","Egyptian","English","Fish","Fondue","Food-vendor","French","Fusion","Greek","Grill", "Ice-cream-parlor", "Indian","Indonesian","International","Israeli","Italian","Japanese","Kebab","Lunchroom","Maroccan","Mexican", "Pancake", "Pizza","Portuguese","Regional","Russian","Sandwiches","Scandinavian","Snackbar","Surinamese","Sushi","Tapas", "Wok"]
     @IBOutlet weak var pkrCategory: UIPickerView!
+
     @IBOutlet weak var ckbxWaardering: UISwitch!
     
     var pickerIndex = 0

@@ -15,14 +15,14 @@ class RestaurantsController: UIViewController,UIPickerViewDataSource,UIPickerVie
     @IBOutlet weak var myPicker: UIPickerView!
     
    
+
+    
     @IBOutlet weak var switchonoff: UISwitch!
     
     
+
+
     
-
-
-     
-
     
     var text = "Alle categorien"
     let pickerData = ["Alle categorien","African","Asian","Australian","Balkan","BBQ","Bistro","Chinese","Dutch","East-european", "Eatery","Egyptian","English","Fish","Fondue","Food-vendor","French","Fusion","Greek","Grill", "Ice-cream-parlor", "Indian","Indonesian","International","Israeli","Italian","Japanese","Kebab","Lunchroom","Maroccan","Mexican", "Pancake", "Pizza","Portuguese","Regional","Russian","Sandwiches","Scandinavian","Snackbar","Surinamese","Sushi","Tapas", "Wok"]
@@ -71,12 +71,13 @@ class RestaurantsController: UIViewController,UIPickerViewDataSource,UIPickerVie
         text = pickerData[row]
     }
     
-    func getJSONURL(spinner:String, check:BooleanType) -> String {
+    func getJSONURL() -> String {
+        var check:BooleanType = switchonoff.on;
         var url = "https://api.eet.nu/venues?"
         
-        if spinner != "Alle categorien"
+        if text != "Alle categorien"
         {
-            url +=  "tags=" + spinner + "&"
+            url +=  "tags=" + text + "&"
         }
         if check {
             url += "sort_by=rating"
@@ -84,12 +85,27 @@ class RestaurantsController: UIViewController,UIPickerViewDataSource,UIPickerVie
         return url;
     }
 
-   @IBAction func search(sender: AnyObject) {
-
-    var switchenabled:BooleanType = switchonoff.on;
-        var JSONurl = getJSONURL(text, check: switchenabled)
-        println(" URL IS " + JSONurl);
-
+//   @IBAction func search(sender: AnyObject) {
+//
+//    var switchenabled:BooleanType = switchonoff.on;
+//        var JSONurl = getJSONURL(text, check: switchenabled)
+//        println(" URL IS " + JSONurl);
+//    
+//        let tableview:TableViewController = TableViewController()
+//        self.presentViewController(tableview, animated: true, completion: nil)
+//    
+//
+//    }
+    override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
+        if (segue.identifier == "tableview") {
+            var svc = segue!.destinationViewController as TableResultsController;
+            svc.JSON = getJSONURL()
+            
+        }
     }
+    
+    
+    
+    
     
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03CBA551AD552A3008C2503 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03CBA541AD552A3008C2503 /* SettingsController.swift */; };
+		A05AA2061AD55E31002E0289 /* TableResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA2051AD55E31002E0289 /* TableResultsController.swift */; };
+		A05AA2081AD567B9002E0289 /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA2071AD567B9002E0289 /* DetailsController.swift */; };
 		CE1BB9811AD4496A002A89B4 /* end.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1BB9801AD4496A002A89B4 /* end.png */; };
 		CE1BB9831AD4497A002A89B4 /* eetnu.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1BB9821AD4497A002A89B4 /* eetnu.png */; };
 		CE4292941AD418D40011CFD6 /* RestaurantsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4292931AD418D40011CFD6 /* RestaurantsController.swift */; };
@@ -30,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A03CBA541AD552A3008C2503 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		A05AA2051AD55E31002E0289 /* TableResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableResultsController.swift; sourceTree = "<group>"; };
+		A05AA2071AD567B9002E0289 /* DetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
 		CE1BB9801AD4496A002A89B4 /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = end.png; path = ../../../Desktop/end.png; sourceTree = "<group>"; };
 		CE1BB9821AD4497A002A89B4 /* eetnu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eetnu.png; path = ../../../Desktop/eetnu.png; sourceTree = "<group>"; };
 		CE4292931AD418D40011CFD6 /* RestaurantsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsController.swift; sourceTree = "<group>"; };
@@ -85,6 +91,7 @@
 		CEDC9FC71AD4051300E2394F /* EindopdrachtIOS */ = {
 			isa = PBXGroup;
 			children = (
+				A03CBA541AD552A3008C2503 /* SettingsController.swift */,
 				CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */,
 				CEDC9FCC1AD4051300E2394F /* ViewController.swift */,
 				CE4292931AD418D40011CFD6 /* RestaurantsController.swift */,
@@ -95,6 +102,8 @@
 				CEDC9FD31AD4051300E2394F /* LaunchScreen.xib */,
 				CEDC9FC81AD4051300E2394F /* Supporting Files */,
 				CED47E331AD450DD006C4A63 /* ASync.swift */,
+				A05AA2051AD55E31002E0289 /* TableResultsController.swift */,
+				A05AA2071AD567B9002E0289 /* DetailsController.swift */,
 			);
 			path = EindopdrachtIOS;
 			sourceTree = "<group>";
@@ -226,6 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05AA2081AD567B9002E0289 /* DetailsController.swift in Sources */,
+				A03CBA551AD552A3008C2503 /* SettingsController.swift in Sources */,
+				A05AA2061AD55E31002E0289 /* TableResultsController.swift in Sources */,
 				CED47E341AD450DD006C4A63 /* ASync.swift in Sources */,
 				CE4292941AD418D40011CFD6 /* RestaurantsController.swift in Sources */,
 				CEDC9FCD1AD4051300E2394F /* ViewController.swift in Sources */,
