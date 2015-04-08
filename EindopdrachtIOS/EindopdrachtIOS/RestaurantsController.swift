@@ -9,6 +9,8 @@
 import UIKit
 
 class RestaurantsController: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate {
+
+
     
     @IBOutlet weak var myPicker: UIPickerView!
     
@@ -17,6 +19,11 @@ class RestaurantsController: UIViewController,UIPickerViewDataSource,UIPickerVie
     
     
     
+
+
+     
+
+    
     var text = "Alle categorien"
     let pickerData = ["Alle categorien","African","Asian","Australian","Balkan","BBQ","Bistro","Chinese","Dutch","East-european", "Eatery","Egyptian","English","Fish","Fondue","Food-vendor","French","Fusion","Greek","Grill", "Ice-cream-parlor", "Indian","Indonesian","International","Israeli","Italian","Japanese","Kebab","Lunchroom","Maroccan","Mexican", "Pancake", "Pizza","Portuguese","Regional","Russian","Sandwiches","Scandinavian","Snackbar","Surinamese","Sushi","Tapas", "Wok"]
     
@@ -24,6 +31,19 @@ class RestaurantsController: UIViewController,UIPickerViewDataSource,UIPickerVie
         super.viewDidLoad()
         myPicker.delegate = self
         myPicker.dataSource = self
+
+
+       let defaults = NSUserDefaults.standardUserDefaults()
+        var checked = defaults.boolForKey("checkbox")
+        if let name = defaults.stringForKey("checkbox")
+        {
+            switchonoff.setOn(checked, animated: false)
+        }
+        var category = defaults.integerForKey("picker")
+        if let name = defaults.stringForKey("picker")
+        {
+            myPicker.selectRow(category, inComponent: 0, animated: false)
+        }
         
     }
     
@@ -50,14 +70,6 @@ class RestaurantsController: UIViewController,UIPickerViewDataSource,UIPickerVie
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         text = pickerData[row]
     }
- 
-    
-    @IBAction func search(sender: AnyObject) {
-        
-        var switchenabled:BooleanType = switchonoff.on;
-        var JSONurl = getJSONURL(text, check: switchenabled)
-        println(" URL IS " + JSONurl);
-    }
     
     func getJSONURL(spinner:String, check:BooleanType) -> String {
         var url = "https://api.eet.nu/venues?"
@@ -71,4 +83,13 @@ class RestaurantsController: UIViewController,UIPickerViewDataSource,UIPickerVie
         }
         return url;
     }
+
+   @IBAction func search(sender: AnyObject) {
+
+    var switchenabled:BooleanType = switchonoff.on;
+        var JSONurl = getJSONURL(text, check: switchenabled)
+        println(" URL IS " + JSONurl);
+
+    }
+    
 }
