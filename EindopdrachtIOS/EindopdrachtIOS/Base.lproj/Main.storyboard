@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lV4-Sw-zDq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lV4-Sw-zDq">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -91,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="-1231" y="378"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings Controller-->
         <scene sceneID="OH1-HJ-xIi">
             <objects>
-                <viewController id="YSq-LB-U7h" sceneMemberID="viewController">
+                <viewController id="YSq-LB-U7h" customClass="SettingsController" customModule="EindopdrachtIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mnf-8C-eXL"/>
                         <viewControllerLayoutGuide type="bottom" id="pTd-ps-gGL"/>
@@ -108,6 +108,9 @@
                                 <state key="normal" title="Opslaan">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnSave:" destination="YSq-LB-U7h" eventType="touchUpInside" id="dlv-ge-0xv"/>
+                                </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yO2-Qj-nhS">
                                 <rect key="frame" x="204" y="429" width="51" height="31"/>
@@ -171,6 +174,10 @@
                             <constraint firstItem="nlT-tS-Hlw" firstAttribute="trailing" secondItem="yWm-8s-Ies" secondAttribute="trailing" id="y3D-rZ-bWg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ckbxWaardering" destination="yO2-Qj-nhS" id="AuY-bm-9Ds"/>
+                        <outlet property="pkrCategory" destination="HWL-Cp-NG9" id="Glk-TR-9x1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pHi-Fs-tQ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
