@@ -10,10 +10,10 @@
 		A03CBA551AD552A3008C2503 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03CBA541AD552A3008C2503 /* SettingsController.swift */; };
 		A05AA2061AD55E31002E0289 /* TableResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA2051AD55E31002E0289 /* TableResultsController.swift */; };
 		A05AA2081AD567B9002E0289 /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA2071AD567B9002E0289 /* DetailsController.swift */; };
-		CE1BB9811AD4496A002A89B4 /* end.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1BB9801AD4496A002A89B4 /* end.png */; };
-		CE1BB9831AD4497A002A89B4 /* eetnu.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1BB9821AD4497A002A89B4 /* eetnu.png */; };
 		CE4292941AD418D40011CFD6 /* RestaurantsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4292931AD418D40011CFD6 /* RestaurantsController.swift */; };
 		CED47E341AD450DD006C4A63 /* ASync.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED47E331AD450DD006C4A63 /* ASync.swift */; };
+		CED991841AD6966000214D91 /* end.png in Resources */ = {isa = PBXBuildFile; fileRef = CED991831AD6966000214D91 /* end.png */; };
+		CED991861AD6966600214D91 /* eetnu.png in Resources */ = {isa = PBXBuildFile; fileRef = CED991851AD6966600214D91 /* eetnu.png */; };
 		CEDC9FCB1AD4051300E2394F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */; };
 		CEDC9FCD1AD4051300E2394F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9FCC1AD4051300E2394F /* ViewController.swift */; };
 		CEDC9FD01AD4051300E2394F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC9FCE1AD4051300E2394F /* Main.storyboard */; };
@@ -36,10 +36,10 @@
 		A03CBA541AD552A3008C2503 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		A05AA2051AD55E31002E0289 /* TableResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableResultsController.swift; sourceTree = "<group>"; };
 		A05AA2071AD567B9002E0289 /* DetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
-		CE1BB9801AD4496A002A89B4 /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = end.png; path = ../../../Desktop/end.png; sourceTree = "<group>"; };
-		CE1BB9821AD4497A002A89B4 /* eetnu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eetnu.png; path = ../../../Desktop/eetnu.png; sourceTree = "<group>"; };
 		CE4292931AD418D40011CFD6 /* RestaurantsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsController.swift; sourceTree = "<group>"; };
 		CED47E331AD450DD006C4A63 /* ASync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASync.swift; sourceTree = SOURCE_ROOT; };
+		CED991831AD6966000214D91 /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = end.png; sourceTree = "<group>"; };
+		CED991851AD6966600214D91 /* eetnu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eetnu.png; sourceTree = "<group>"; };
 		CEDC9FC51AD4051300E2394F /* EindopdrachtIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EindopdrachtIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDC9FC91AD4051300E2394F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,14 +91,14 @@
 		CEDC9FC71AD4051300E2394F /* EindopdrachtIOS */ = {
 			isa = PBXGroup;
 			children = (
+				CED991851AD6966600214D91 /* eetnu.png */,
+				CED991831AD6966000214D91 /* end.png */,
 				A03CBA541AD552A3008C2503 /* SettingsController.swift */,
 				CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */,
 				CEDC9FCC1AD4051300E2394F /* ViewController.swift */,
 				CE4292931AD418D40011CFD6 /* RestaurantsController.swift */,
 				CEDC9FCE1AD4051300E2394F /* Main.storyboard */,
 				CEDC9FD11AD4051300E2394F /* Images.xcassets */,
-				CE1BB9821AD4497A002A89B4 /* eetnu.png */,
-				CE1BB9801AD4496A002A89B4 /* end.png */,
 				CEDC9FD31AD4051300E2394F /* LaunchScreen.xib */,
 				CEDC9FC81AD4051300E2394F /* Supporting Files */,
 				CED47E331AD450DD006C4A63 /* ASync.swift */,
@@ -213,10 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED991861AD6966600214D91 /* eetnu.png in Resources */,
 				CEDC9FD01AD4051300E2394F /* Main.storyboard in Resources */,
-				CE1BB9811AD4496A002A89B4 /* end.png in Resources */,
+				CED991841AD6966000214D91 /* end.png in Resources */,
 				CEDC9FD51AD4051300E2394F /* LaunchScreen.xib in Resources */,
-				CE1BB9831AD4497A002A89B4 /* eetnu.png in Resources */,
 				CEDC9FD21AD4051300E2394F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
