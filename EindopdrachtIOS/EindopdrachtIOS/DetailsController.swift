@@ -68,7 +68,7 @@ class DetailsController: UIViewController, UITableViewDataSource, UITableViewDel
         if !(restaurant["telephone"] is NSNull)
         {
             info.append("Telefoon : " + (restaurant["telephone"] as NSString))
-            number = restaurant["telephone"] as String
+            number = RemoveWhiteSpaces(restaurant["telephone"] as String)
         } else {
             info.append("Telefoon : Geen");
             number = "Geen"
@@ -148,6 +148,36 @@ class DetailsController: UIViewController, UITableViewDataSource, UITableViewDel
 
     @IBAction func startURL(sender: AnyObject) {
         UIApplication.sharedApplication().openURL(NSURL(string:website)!)
+    }
+    
+    
+
+    
+    func RemoveWhiteSpaces(str:String) -> String {
+        
+        var buffer:String = ""
+        
+        for character in str {
+            
+            if character != " "
+            {
+               buffer.insert(character, atIndex: buffer.endIndex)
+            }
+        }
+        
+        return buffer
+    }
+    
+    
+    @IBAction func btnSMS(sender: AnyObject)
+    {
+        UIApplication.sharedApplication().openURL(NSURL(string:"sms://" + number)!)
+    }
+
+    @IBAction func btnCall(sender: AnyObject)
+    {
+        println("Dit is het nummer: " + number)
+        UIApplication.sharedApplication().openURL(NSURL(string:"tel://" + number)!)
     }
     
 }

@@ -16,6 +16,7 @@ class SettingsController: UIViewController,UIPickerViewDataSource,UIPickerViewDe
     @IBOutlet weak var ckbxWaardering: UISwitch!
     
     var pickerIndex = 0
+    var set  = Settings()
     
 
     override func viewDidLoad()
@@ -25,17 +26,25 @@ class SettingsController: UIViewController,UIPickerViewDataSource,UIPickerViewDe
         pkrCategory.dataSource = self
         
         
-        let defaults = NSUserDefaults.standardUserDefaults()
-        var checked = defaults.boolForKey("checkbox")
-        if let name = defaults.stringForKey("checkbox")
-        {
-            ckbxWaardering.setOn(checked, animated: false)
-        }
-        var category = defaults.integerForKey("picker")
-        if let name = defaults.stringForKey("picker")
-        {
-            pkrCategory.selectRow(category, inComponent: 0, animated: false)
-        }
+        //let defaults = NSUserDefaults.standardUserDefaults()
+        //var checked = defaults.boolForKey("checkbox")
+
+ 
+        
+        var checked  = NSString(string:set.getCheckSettings())
+        var category = NSString(string:set.getPickerSettings())
+        
+        pickerIndex = category.integerValue
+        
+        //if let name = defaults.stringForKey("checkbox")
+        //{
+            ckbxWaardering.setOn(checked.boolValue, animated: false)
+        //}
+        //var category = defaults.integerForKey("picker")
+       // //if let name = defaults.stringForKey("picker")
+        //{
+            pkrCategory.selectRow(category.integerValue, inComponent: 0, animated: false)
+        //}
 
         // Do any additional setup after loading the view.
         
@@ -56,11 +65,8 @@ class SettingsController: UIViewController,UIPickerViewDataSource,UIPickerViewDe
     @IBAction func btnSave(sender: AnyObject)
     {
         var checkboxvalue = ckbxWaardering.on
-        let defaults = NSUserDefaults.standardUserDefaults()
-        defaults.setObject(checkboxvalue, forKey: "checkbox")
-        defaults.setObject(pickerIndex, forKey: "picker")
-        println(checkboxvalue)
         
+        set.saveSettings(pickerIndex, checked: checkboxvalue)
     }
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {

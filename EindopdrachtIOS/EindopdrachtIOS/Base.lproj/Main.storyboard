@@ -387,8 +387,35 @@
                                     <constraint firstAttribute="height" constant="94" id="aUu-ZV-2dE"/>
                                 </constraints>
                             </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="d03-lx-si2">
-                                <rect key="frame" x="0.0" y="159" width="600" height="317"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CF-Kg-apn">
+                                <rect key="frame" x="8" y="474" width="109" height="30"/>
+                                <state key="normal" title="website openen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startURL:" destination="JBD-m1-4Hi" eventType="touchUpInside" id="sFJ-gZ-17w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBD-Ve-a5X">
+                                <rect key="frame" x="137" y="474" width="43" height="30"/>
+                                <state key="normal" title="Bellen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnCall:" destination="JBD-m1-4Hi" eventType="touchUpInside" id="zKj-3R-51a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpS-rw-XrM">
+                                <rect key="frame" x="206" y="474" width="33" height="30"/>
+                                <state key="normal" title="SMS">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSMS:" destination="JBD-m1-4Hi" eventType="touchUpInside" id="UVq-Wh-oIt"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="d03-lx-si2">
+                                <rect key="frame" x="0.0" y="159" width="600" height="293"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TextCell" textLabel="BE8-eC-4RJ" style="IBUITableViewCellStyleDefault" id="hpa-TX-xao">
@@ -407,24 +434,22 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CF-Kg-apn">
-                                <rect key="frame" x="8" y="474" width="109" height="30"/>
-                                <state key="normal" title="website openen">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="startURL:" destination="JBD-m1-4Hi" eventType="touchUpInside" id="sFJ-gZ-17w"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Bxd-tT-tqY" firstAttribute="top" secondItem="1CF-Kg-apn" secondAttribute="bottom" constant="2" id="1dd-as-bZs"/>
                             <constraint firstItem="d03-lx-si2" firstAttribute="top" secondItem="30A-Nf-xSt" secondAttribute="bottom" constant="1" id="4wO-QQ-oo8"/>
+                            <constraint firstItem="BBD-Ve-a5X" firstAttribute="baseline" secondItem="1CF-Kg-apn" secondAttribute="baseline" id="8O5-PX-OWL"/>
+                            <constraint firstItem="PpS-rw-XrM" firstAttribute="baseline" secondItem="BBD-Ve-a5X" secondAttribute="baseline" id="A32-r9-SjX"/>
+                            <constraint firstItem="BBD-Ve-a5X" firstAttribute="leading" secondItem="1CF-Kg-apn" secondAttribute="trailing" constant="20" id="Adc-Ye-Uvg"/>
+                            <constraint firstItem="PpS-rw-XrM" firstAttribute="leading" secondItem="BBD-Ve-a5X" secondAttribute="trailing" constant="26" id="Gxe-f0-Cws"/>
+                            <constraint firstItem="1CF-Kg-apn" firstAttribute="leading" secondItem="g6S-D6-MQJ" secondAttribute="leadingMargin" constant="-8" id="KPn-kT-Nqh"/>
                             <constraint firstItem="30A-Nf-xSt" firstAttribute="top" secondItem="KGx-G8-Bqs" secondAttribute="bottom" id="Myi-K5-L4P"/>
                             <constraint firstItem="30A-Nf-xSt" firstAttribute="trailing" secondItem="Bxd-tT-tqY" secondAttribute="trailing" id="Qsi-ga-DGc"/>
                             <constraint firstItem="Bxd-tT-tqY" firstAttribute="bottom" secondItem="3C8-ad-OwB" secondAttribute="top" id="Y3a-J3-2nc"/>
                             <constraint firstItem="30A-Nf-xSt" firstAttribute="leading" secondItem="g6S-D6-MQJ" secondAttribute="leading" id="ZqP-mb-4fC"/>
                             <constraint firstAttribute="trailing" secondItem="30A-Nf-xSt" secondAttribute="trailing" id="rap-5R-2hC"/>
+                            <constraint firstItem="1CF-Kg-apn" firstAttribute="top" secondItem="d03-lx-si2" secondAttribute="bottom" constant="22" id="tJX-UH-zUC"/>
                             <constraint firstItem="d03-lx-si2" firstAttribute="trailing" secondItem="30A-Nf-xSt" secondAttribute="trailing" id="u1S-8R-8E2"/>
                             <constraint firstItem="Bxd-tT-tqY" firstAttribute="leading" secondItem="30A-Nf-xSt" secondAttribute="leading" id="uRg-vh-RtJ"/>
                             <constraint firstItem="d03-lx-si2" firstAttribute="leading" secondItem="30A-Nf-xSt" secondAttribute="leading" id="vSh-PM-6Si"/>

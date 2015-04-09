@@ -19,6 +19,7 @@ class RestaurantsController: UIViewController,UIPickerViewDataSource,UIPickerVie
     
     @IBOutlet weak var switchonoff: UISwitch!
     
+    var set = Settings()
     
 
 
@@ -32,18 +33,17 @@ class RestaurantsController: UIViewController,UIPickerViewDataSource,UIPickerVie
         myPicker.delegate = self
         myPicker.dataSource = self
 
+        var checked  = NSString(string:set.getCheckSettings())
+        var category = NSString(string:set.getPickerSettings())
+        
 
-       let defaults = NSUserDefaults.standardUserDefaults()
-        var checked = defaults.boolForKey("checkbox")
-        if let name = defaults.stringForKey("checkbox")
-        {
-            switchonoff.setOn(checked, animated: false)
-        }
-        var category = defaults.integerForKey("picker")
-        if let name = defaults.stringForKey("picker")
-        {
-            myPicker.selectRow(category, inComponent: 0, animated: false)
-        }
+        switchonoff.setOn(checked.boolValue, animated: false)
+
+        myPicker.selectRow(category.integerValue, inComponent: 0, animated: false)
+
+        
+        // Do any additional setup after loading the view.
+        
         
     }
     

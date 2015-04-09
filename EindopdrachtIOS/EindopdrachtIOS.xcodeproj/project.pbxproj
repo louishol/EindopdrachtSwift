@@ -14,6 +14,7 @@
 		CED47E341AD450DD006C4A63 /* ASync.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED47E331AD450DD006C4A63 /* ASync.swift */; };
 		CED991841AD6966000214D91 /* end.png in Resources */ = {isa = PBXBuildFile; fileRef = CED991831AD6966000214D91 /* end.png */; };
 		CED991861AD6966600214D91 /* eetnu.png in Resources */ = {isa = PBXBuildFile; fileRef = CED991851AD6966600214D91 /* eetnu.png */; };
+		CED9918C1AD6978E00214D91 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9918B1AD6978E00214D91 /* Settings.swift */; };
 		CEDC9FCB1AD4051300E2394F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */; };
 		CEDC9FCD1AD4051300E2394F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9FCC1AD4051300E2394F /* ViewController.swift */; };
 		CEDC9FD01AD4051300E2394F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC9FCE1AD4051300E2394F /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		CED47E331AD450DD006C4A63 /* ASync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASync.swift; sourceTree = SOURCE_ROOT; };
 		CED991831AD6966000214D91 /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = end.png; sourceTree = "<group>"; };
 		CED991851AD6966600214D91 /* eetnu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eetnu.png; sourceTree = "<group>"; };
+		CED9918B1AD6978E00214D91 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		CEDC9FC51AD4051300E2394F /* EindopdrachtIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EindopdrachtIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDC9FC91AD4051300E2394F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDC9FCA1AD4051300E2394F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				CED47E331AD450DD006C4A63 /* ASync.swift */,
 				A05AA2051AD55E31002E0289 /* TableResultsController.swift */,
 				A05AA2071AD567B9002E0289 /* DetailsController.swift */,
+				CED9918B1AD6978E00214D91 /* Settings.swift */,
 			);
 			path = EindopdrachtIOS;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				A05AA2081AD567B9002E0289 /* DetailsController.swift in Sources */,
 				A03CBA551AD552A3008C2503 /* SettingsController.swift in Sources */,
+				CED9918C1AD6978E00214D91 /* Settings.swift in Sources */,
 				A05AA2061AD55E31002E0289 /* TableResultsController.swift in Sources */,
 				CED47E341AD450DD006C4A63 /* ASync.swift in Sources */,
 				CE4292941AD418D40011CFD6 /* RestaurantsController.swift in Sources */,
